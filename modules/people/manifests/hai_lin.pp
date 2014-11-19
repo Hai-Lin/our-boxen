@@ -1,4 +1,4 @@
-class people::hai-lin{
+class people::hai_lin{
     include atom
     # install atom packages
     atom::package { 'language go': }
