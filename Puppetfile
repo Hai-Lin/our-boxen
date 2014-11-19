@@ -59,3 +59,23 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "atom", "1.1.0"
+github "chrome", "1.2.0"
+github "clojure", "1.6.0"
+github "dropbox",  "2.10.41"
+github "erlang", "1.0.2"
+github "evernote", "2.0.7"
+github "firefox", "1.2.3"
+github "firefox",  "1.0.1"
+github "go", "2.1.0"
+github "github_for_mac" "1.0.3"
+github "imagemagick", "1.3.0"
+github "iterm2", "1.2.2"
+github "java", "1.7.1"
+github "skitch", "1.0.3"
+github "macvim", "1.0.0"
+github "spotify", "1.0.2"
+github "vagrant", "3.2.0"
+github "virtualbox", "1.0.13"
+github "zsh", "1.0.0"
