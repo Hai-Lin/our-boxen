@@ -1,17 +1,11 @@
 class people::hai_lin{
     include atom
-    # install atom packages
-    atom::package { 'language go': }
-    atom::package { 'monokai': }
-    atom::package { 'vim mode': }
     include chrome
     include clojure
     include dropbox
-    include erlang
     include evernote
     include firefox
     include flux
-    include go
     include github_for_mac
     include imagemagick
     include iterm2::stable
@@ -21,14 +15,14 @@ class people::hai_lin{
     include spotify
     class { 'vagrant': }
     include virtualbox
-    include zsh
 
     package {
         [
             'httpie',
+            'erlang',
             'scala',
             'ssh-copy-id',
             'wget'
-        ]
+        ]:
     }
 }
